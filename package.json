@@ -1,0 +1,22 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmaailAitGaghou/Developer-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsmaailAitGaghou/Developer-Portfolio/issues"
+  },
+  "homepage": "https://github.com/IsmaailAitGaghou/Developer-Portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
