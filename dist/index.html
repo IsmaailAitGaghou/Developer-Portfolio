@@ -6,28 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body class="bg-black text-gray-400 font-body">
-    <div>
-        <header class="font-heading">
+    <div class="px-4 sm:px-36">
+        <header class="font-heading flex justify-between items-center sm:py-0 py-8">
             <a href="#" class="font-body text-white">
                 Johnathan Specter
             </a>
-            <ul>
-                <li>
-                    <a href="#">Articles</a>
+            <ul class="font-light absolute hidden right-0 flex sm:flex flex-col justify-around py-6 items-center mt-80 bg-slate-200 w-full h-64 sm:bg-inherit sm:relative sm:mt-0  sm:flex-row sm:w-auto sm:h-24" id="menu">
+                <li class="mr-8">
+                    <a href="#" class="hover:text-white transition ease-out duration-300">Articles</a>
                 </li>
-                <li>
-                    <a href="#">Chats</a>
+                <li class="mr-8">
+                    <a href="#" class="hover:text-white transition ease-out duration-300">Chats</a>
                 </li>
-                <li>
-                    <a href="#">Awards</a>
+                <li class="mr-8">
+                    <a href="#" class="hover:text-white transition ease-out duration-300">Awards</a>
                 </li>
-                <li>
-                    <a href="#">About</a>
+                <li class="mr-8">
+                    <a href="#" class="hover:text-white transition ease-out duration-300">About</a>
                 </li>
             </ul>
+            <button type="submit" class="font-body text-black bg-yellow-300 py-3 px-6 hover:bg-yellow-400 transition ease-out duration-300 hidden md:block">
+                Get in touch
+            </button>
+            <div class="sm:hidden cursor-pointer" id="burger">
+                <img src="assets/Hamburger Menu.svg" alt="">
+            </div>
         </header>
+
+        <main >
+            <div>
+                <div class="md:grid md:grid-cols-2 md:grid-rows-2">
+                    <h1 class="text-3xl text-white mt-6 leading-10 mb-3 col-span-1 md:py-3">
+                        Helping companies build better, scalable software.
+                    </h1>
+                    <p class="font-heading mb-10 col-span-3">
+                        Award-winning web developer and author, with over 15+ years of working experience with Forture 500 companies like Apple, Google, Facebook, and more.
+                    </p>
+                </div>
+                    
+                <div class="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-6">
+                    <img src="assets/Logos/Walmart.svg" class="col-span-1" alt="Walmart">
+                    <img src="assets/Logos/JP Morgan.svg" alt="JP Morgan">
+                    <img src="assets/Logos/Visa.svg" alt="Visa">
+                    <img src="assets/Logos/Tinder.svg" alt="Tinder">
+                    <img src="assets/Logos/Samsung.svg" alt="Samsung">
+                    <img src="assets/Logos/Verizon.svg" alt="Verizon">
+                </div>
+            </div>
+        </main>
+
+        <section>
+            <div>
+                <img src="assets/Spense.png" alt="Spense project">
+                <h1><a href="#" class="flex items-center">Spense.com <span class="mt-1"><i class="ri-arrow-right-line"></i></span> </a> </i></h1>
+            </div>
+        </section>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
